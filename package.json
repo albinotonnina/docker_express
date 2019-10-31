@@ -8,7 +8,6 @@
     "docker:build": "docker build -t docker_express ./server",
     "docker:run": "docker run -p 49160:8080 docker_express",
     "docker:logs": "docker logs docker_express"
-
   },
   "dependencies": {
     "express": "^4.17.1"
